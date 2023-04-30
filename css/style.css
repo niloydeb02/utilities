@@ -1,0 +1,33 @@
+.hstack {
+  width: 100%;
+  height: 40px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+}
+
+.s-main{ width: 100%;
+         height: 40px;
+         border: 1px solid blueviolet;
+
+
+}
+
+.vstack {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: stretch;
+}
+.s-item{
+  background: aliceblue;
+  height: 35px;
+
+}
+.f-item{ height: 35px;
+         background: blueviolet;
+        border: 1px solid brown;
+  
+}
